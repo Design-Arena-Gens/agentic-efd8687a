@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+  font-family: "Hind", "Noto Sans Devanagari", "Mukta", "Poppins", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #fefdf9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
